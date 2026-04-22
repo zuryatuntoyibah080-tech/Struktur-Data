@@ -1,0 +1,9 @@
+# Meminta user memasukkan angka
+angka = int(input("Masukkan angka: "))
+
+# Jika angka negatif atau nol, minta input ulang
+while angka <= 0:
+    print("Harus positif!")
+    angka = int(input("Masukkan angka: "))
+
+print("Angka yang dimasukkan:", angka)
